@@ -11,16 +11,14 @@ body {
 }
 
 .textbody h1{
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 550;
     width: 80%;
     
 
 }
 
-#formbody{
-    padding-left: 25px;
-}
+
 
 .container {
   display: flex;      /* puts children side by side */
@@ -28,18 +26,128 @@ body {
 }
 
 .image {
-  width: 30%;
+  width: 35%;
   background-image: url("bg.jpg");
   background-size: cover;
   background-position: center;
 }
 
+.textbody{
+    margin-bottom: 40px;
+}
+.know{
+    margin-top: 35px;
+}
+
 .formbody {
-  width: 70%;
-  padding: 40px;
+  width: 65%;
+  padding: 70px;
   box-sizing: border-box;
   background-color: rgb(246, 246, 246);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* padding-left: 75px; */
 }
+
+
+
+.formdata{
+    /* display: grid; */
+    
+}
+
+.formcard h1{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+
+
+
+
+.formcard {
+    background-color: white;
+    padding:  45px 30px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin-bottom: 45px;
+}
+
+.formdata {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 45px;
+    row-gap: 20px;
+}
+
+
+.formdata label {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+.formdata input {
+    padding: 8px 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.formdata input:focus {
+    outline: none;
+    border: 1px solid rgb(56, 122, 77);
+    box-shadow: 0 0 5px rgba(36, 141, 66, 0.393);
+}
+
+.formdata input:invalid {
+    border: 1px dotted rgb(222, 150, 150);
+}
+
+.submit {
+    background-color: #596D48;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.log{
+    color: #596D48;
+    font-weight: 600;
+}
+
+.call {
+    margin-top: 20px;
+}
+
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.formdata label {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+.formdata input {
+    padding: 8px 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
